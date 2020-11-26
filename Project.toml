@@ -3,6 +3,12 @@ uuid = "edf05e14-c34c-4d80-8520-1a1ec72e5d6d"
 authors = ["zerefwayne <aayushjog@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+MakieRecipes = "3c562d8e-4afa-4f1c-99bf-ad54af2b207f"
+Meshes = "eacbb407-ea5a-433e-ab97-5258b1ca43fa"
+RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
+
 [compat]
 julia = "1.5"
 
