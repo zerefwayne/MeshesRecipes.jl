@@ -5,8 +5,6 @@ function default_theme(scene::SceneLike, ::Type{<:Plot(Polytope)})
     )
 end
 
-using Meshes
-
 """
     Function to plot all types which are type Meshes.Polytype
 """
