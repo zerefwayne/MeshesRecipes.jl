@@ -10,6 +10,7 @@ Meshes = "eacbb407-ea5a-433e-ab97-5258b1ca43fa"
 RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
 
 [compat]
+Makie = "0.11"
 Meshes = "0.5"
 julia = "1.5"
 
