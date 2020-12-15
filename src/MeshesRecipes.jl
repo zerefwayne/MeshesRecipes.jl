@@ -1,5 +1,10 @@
 module MeshesRecipes
 
-# Write your package code here.
+using Meshes
+using AbstractPlotting
+
+import AbstractPlotting: Plot, default_theme, plot!
+
+include("polytypes.jl")
 
 end
