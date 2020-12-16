@@ -8,5 +8,3 @@ function AbstractPlotting.plot!(scene::AbstractPlotting.Scene, s::Segment; kwarg
   scatter!(scene, v, kwargs...)
   scene
 end
-
-

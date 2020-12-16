@@ -8,5 +8,3 @@ function AbstractPlotting.plot!(scene::AbstractPlotting.Scene, p::Polygon; kwarg
   end
   scene
 end
-
-
