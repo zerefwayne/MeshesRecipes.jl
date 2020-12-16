@@ -6,6 +6,7 @@ function AbstractPlotting.plot!(scene::AbstractPlotting.Scene, s::Segment; kwarg
   v = coordinates.(vertices(s))
   lines!(scene, v, kwargs...)
   scatter!(scene, v, kwargs...)
+  scene
 end
 
 
