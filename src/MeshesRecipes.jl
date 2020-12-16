@@ -7,5 +7,6 @@ import AbstractPlotting: Plot, default_theme, plot!
 
 include("segment.jl")
 include("polygon.jl")
+include("polyhedron.jl")
 
 end
