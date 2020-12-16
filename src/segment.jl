@@ -1,6 +1,3 @@
-import AbstractPlotting
-using Meshes
-
 AbstractPlotting.plot(s::Segment; kwargs...) = plot!(AbstractPlotting.Scene(), s; kwargs...)
 AbstractPlotting.plot!(s::Segment; kwargs...) = plot!(AbstractPlotting.current_scene(), s; kwargs...)
 AbstractPlotting.plot!(scene::AbstractPlotting.Scene, s::Segment; kwargs...) = plot!(scene, s; kwargs...)
